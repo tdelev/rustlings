@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // This exercise is an altered version of the `errors4` exercise. It uses some
 // concepts that we won't get to until later in the course, like `Box` and the
 // `From` trait. It's not important to understand them in detail right now, but
@@ -51,4 +52,9 @@ fn main() -> Result<(), Box<dyn Error>> {
     let x: i64 = pretend_user_input.parse()?;
     println!("output={:?}", PositiveNonzeroInteger::new(x)?);
     Ok(())
+=======
+fn main() {
+    // DON'T EDIT THIS SOLUTION FILE!
+    // It will be automatically filled after you finish the exercise.
+>>>>>>> master
 }

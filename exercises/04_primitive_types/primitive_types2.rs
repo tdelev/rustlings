@@ -16,7 +16,11 @@ fn main() {
     // below with your favorite character.
     // Try a letter, try a digit (in single quotes), try a special character, try a character
     // from a different language than your own, try an emoji 😉
+<<<<<<< HEAD
     let your_character = '😉';
+=======
+    // let your_character = '';
+>>>>>>> master
 
     if your_character.is_alphabetic() {
         println!("Alphabetical!");

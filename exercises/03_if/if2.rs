@@ -2,10 +2,15 @@
 fn foo_if_fizz(fizzish: &str) -> &str {
     if fizzish == "fizz" {
         "foo"
+<<<<<<< HEAD
     } else if fizzish == "fuzz" {
         "bar"
     } else {
         "baz"
+=======
+    } else {
+        1
+>>>>>>> master
     }
 }
 

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 fn vec_loop(input: &[i32]) -> Vec<i32> {
     let mut output = Vec::new();
 
@@ -52,4 +53,9 @@ mod tests {
         let ans = vec_map(&input);
         assert_eq!(ans, [4, 8, 12, 16, 20]);
     }
+=======
+fn main() {
+    // DON'T EDIT THIS SOLUTION FILE!
+    // It will be automatically filled after you finish the exercise.
+>>>>>>> master
 }

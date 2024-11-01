@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 fn fill_vec(vec: Vec<i32>) -> Vec<i32> {
     let mut vec = vec;
 
@@ -25,4 +26,9 @@ mod tests {
         assert_eq!(vec0, [22, 44, 66]);
         assert_eq!(vec1, [22, 44, 66, 88]);
     }
+=======
+fn main() {
+    // DON'T EDIT THIS SOLUTION FILE!
+    // It will be automatically filled after you finish the exercise.
+>>>>>>> master
 }

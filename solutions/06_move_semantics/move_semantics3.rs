@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 fn fill_vec(mut vec: Vec<i32>) -> Vec<i32> {
     //      ^^^ added
     vec.push(88);
@@ -19,4 +20,9 @@ mod tests {
         let vec1 = fill_vec(vec0);
         assert_eq!(vec1, [22, 44, 66, 88]);
     }
+=======
+fn main() {
+    // DON'T EDIT THIS SOLUTION FILE!
+    // It will be automatically filled after you finish the exercise.
+>>>>>>> master
 }

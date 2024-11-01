@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #![allow(clippy::ptr_arg)]
 
 // Borrows instead of taking ownership.
@@ -20,4 +21,9 @@ fn main() {
     get_char(&data);
 
     string_uppercase(data);
+=======
+fn main() {
+    // DON'T EDIT THIS SOLUTION FILE!
+    // It will be automatically filled after you finish the exercise.
+>>>>>>> master
 }

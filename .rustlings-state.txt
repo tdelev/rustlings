@@ -1,6 +1,10 @@
 DON'T EDIT THIS FILE!
 
+<<<<<<< HEAD
 generics1
+=======
+options1
+>>>>>>> master
 
 intro1
 intro2
@@ -11,6 +15,7 @@ variables4
 variables5
 variables6
 functions1
+<<<<<<< HEAD
 functions2
 functions3
 functions4
@@ -40,3 +45,22 @@ errors3
 errors4
 errors5
 errors6
+=======
+structs1
+structs2
+structs3
+enums1
+enums2
+enums3
+strings1
+strings2
+strings3
+strings4
+modules1
+modules2
+modules3
+hashmaps1
+hashmaps2
+hashmaps3
+quiz2
+>>>>>>> master

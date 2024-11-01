@@ -1,6 +1,10 @@
 // TODO: Fix the compiler error without changing the function signature.
 fn current_favorite_color() -> String {
+<<<<<<< HEAD
     "blue"
+=======
+    String::from("blue")
+>>>>>>> master
 }
 
 fn main() {

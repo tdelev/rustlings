@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // This is a program that is trying to use a completed version of the
 // `total_cost` function from the previous exercise. It's not working though!
 // Why not? What should we do to fix it?
@@ -29,4 +30,9 @@ fn main() -> Result<(), ParseIntError> {
 
     // Added this line to return the `Ok` variant of the expected `Result`.
     Ok(())
+=======
+fn main() {
+    // DON'T EDIT THIS SOLUTION FILE!
+    // It will be automatically filled after you finish the exercise.
+>>>>>>> master
 }

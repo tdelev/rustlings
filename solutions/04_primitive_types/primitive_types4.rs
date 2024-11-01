@@ -1,4 +1,5 @@
 fn main() {
+<<<<<<< HEAD
     // You can optionally experiment here.
 }
 
@@ -20,4 +21,8 @@ mod tests {
         let nice_slice = &a[1..=3];
         assert_eq!([2, 3, 4], nice_slice);
     }
+=======
+    // DON'T EDIT THIS SOLUTION FILE!
+    // It will be automatically filled after you finish the exercise.
+>>>>>>> master
 }

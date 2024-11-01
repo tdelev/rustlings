@@ -1,6 +1,10 @@
 // TODO: Fix the compiler error in this function.
 fn fill_vec(vec: Vec<i32>) -> Vec<i32> {
+<<<<<<< HEAD
     let mut vec = vec;
+=======
+    let vec = vec;
+>>>>>>> master
 
     vec.push(88);
 
