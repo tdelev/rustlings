@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Say we're writing a game where you can buy items with tokens. All items cost
 // 5 tokens, and whenever you purchase items there is a processing fee of 1
 // token. A player of the game will type in how many items they want to buy, and
@@ -56,9 +55,4 @@ mod tests {
             &IntErrorKind::InvalidDigit,
         );
     }
-=======
-fn main() {
-    // DON'T EDIT THIS SOLUTION FILE!
-    // It will be automatically filled after you finish the exercise.
->>>>>>> master
 }

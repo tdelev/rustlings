@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-fn main() {
-    // DON'T EDIT THIS SOLUTION FILE!
-    // It will be automatically filled after you finish the exercise.
-=======
 // A basket of fruits in the form of a hash map needs to be defined. The key
 // represents the name of the fruit and the value represents how many of that
 // particular fruit is in the basket. You have to put at least 3 different
@@ -44,5 +39,4 @@ mod tests {
         let basket = fruit_basket();
         assert!(basket.values().sum::<u32>() >= 5);
     }
->>>>>>> master
 }

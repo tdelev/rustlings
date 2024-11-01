@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 fn foo_if_fizz(fizzish: &str) -> &str {
     if fizzish == "fizz" {
         "foo"
@@ -31,9 +30,4 @@ mod tests {
     fn default_to_baz() {
         assert_eq!(foo_if_fizz("literally anything"), "baz");
     }
-=======
-fn main() {
-    // DON'T EDIT THIS SOLUTION FILE!
-    // It will be automatically filled after you finish the exercise.
->>>>>>> master
 }

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 use std::cmp::Ordering;
 
 #[derive(PartialEq, Debug)]
@@ -40,9 +39,4 @@ mod tests {
         );
         assert_eq!(PositiveNonzeroInteger::new(0), Err(CreationError::Zero));
     }
-=======
-fn main() {
-    // DON'T EDIT THIS SOLUTION FILE!
-    // It will be automatically filled after you finish the exercise.
->>>>>>> master
 }

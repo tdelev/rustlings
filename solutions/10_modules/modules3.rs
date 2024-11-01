@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-fn main() {
-    // DON'T EDIT THIS SOLUTION FILE!
-    // It will be automatically filled after you finish the exercise.
-=======
 use std::time::{SystemTime, UNIX_EPOCH};
 
 fn main() {
@@ -10,5 +5,4 @@ fn main() {
         Ok(n) => println!("1970-01-01 00:00:00 UTC was {} seconds ago!", n.as_secs()),
         Err(_) => panic!("SystemTime before UNIX EPOCH!"),
     }
->>>>>>> master
 }

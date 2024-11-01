@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #[derive(Debug)]
 struct Point {
     x: i32,
@@ -24,9 +23,4 @@ fn main() {
     }
 
     println!("{optional_point:?}");
-=======
-fn main() {
-    // DON'T EDIT THIS SOLUTION FILE!
-    // It will be automatically filled after you finish the exercise.
->>>>>>> master
 }

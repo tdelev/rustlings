@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-fn main() {
-    // DON'T EDIT THIS SOLUTION FILE!
-    // It will be automatically filled after you finish the exercise.
-=======
 #[allow(dead_code)]
 mod delicious_snacks {
     // Added `pub` and used the expected alias after `as`.
@@ -26,5 +21,4 @@ fn main() {
         delicious_snacks::fruit,
         delicious_snacks::veggie,
     );
->>>>>>> master
 }

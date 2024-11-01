@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-fn main() {
-    // DON'T EDIT THIS SOLUTION FILE!
-    // It will be automatically filled after you finish the exercise.
-=======
 // We're collecting different fruits to bake a delicious fruit cake. For this,
 // we have a basket, which we'll represent in the form of a hash map. The key
 // represents the name of each fruit we collect and the value represents how
@@ -98,5 +93,4 @@ mod tests {
             assert!(*amount > 0);
         }
     }
->>>>>>> master
 }

@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-fn main() {
-    // DON'T EDIT THIS SOLUTION FILE!
-    // It will be automatically filled after you finish the exercise.
-=======
 fn trim_me(input: &str) -> &str {
     input.trim()
 }
@@ -50,5 +45,4 @@ mod tests {
             "I love to look at balloons",
         );
     }
->>>>>>> master
 }

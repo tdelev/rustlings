@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 fn array_and_vec() -> ([i32; 4], Vec<i32>) {
     let a = [10, 20, 30, 40]; // Array
 
@@ -21,9 +20,4 @@ mod tests {
         let (a, v) = array_and_vec();
         assert_eq!(a, *v);
     }
-=======
-fn main() {
-    // DON'T EDIT THIS SOLUTION FILE!
-    // It will be automatically filled after you finish the exercise.
->>>>>>> master
 }

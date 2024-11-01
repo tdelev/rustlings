@@ -6,9 +6,5 @@ fn call_me(num: u8) {
 
 fn main() {
     // TODO: Fix the function call.
-<<<<<<< HEAD
     call_me(20);
-=======
-    call_me();
->>>>>>> master
 }

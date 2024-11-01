@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 fn animal_habitat(animal: &str) -> &str {
     let identifier = if animal == "crab" {
         1
@@ -51,9 +50,4 @@ mod tests {
     fn unknown_animal() {
         assert_eq!(animal_habitat("dinosaur"), "Unknown")
     }
-=======
-fn main() {
-    // DON'T EDIT THIS SOLUTION FILE!
-    // It will be automatically filled after you finish the exercise.
->>>>>>> master
 }

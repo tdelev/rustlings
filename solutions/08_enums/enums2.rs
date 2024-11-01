@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-fn main() {
-    // DON'T EDIT THIS SOLUTION FILE!
-    // It will be automatically filled after you finish the exercise.
-=======
 #![allow(dead_code)]
 
 #[derive(Debug)]
@@ -41,5 +36,4 @@ fn main() {
     for message in &messages {
         message.call();
     }
->>>>>>> master
 }

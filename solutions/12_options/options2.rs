@@ -1,5 +1,4 @@
 fn main() {
-<<<<<<< HEAD
     // You can optionally experiment here.
 }
 
@@ -35,8 +34,4 @@ mod tests {
 
         assert_eq!(cursor, 0);
     }
-=======
-    // DON'T EDIT THIS SOLUTION FILE!
-    // It will be automatically filled after you finish the exercise.
->>>>>>> master
 }

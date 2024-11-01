@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-fn main() {
-    // DON'T EDIT THIS SOLUTION FILE!
-    // It will be automatically filled after you finish the exercise.
-=======
 struct Point {
     x: u64,
     y: u64,
@@ -94,5 +89,4 @@ mod tests {
         assert_eq!(state.color, (255, 0, 255));
         assert!(state.quit);
     }
->>>>>>> master
 }

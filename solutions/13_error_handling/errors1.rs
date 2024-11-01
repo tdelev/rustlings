@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 fn generate_nametag_text(name: String) -> Result<String, String> {
     //                                    ^^^^^^         ^^^^^^
     if name.is_empty() {
@@ -35,9 +34,4 @@ mod tests {
             Err("Empty names aren't allowed"),
         );
     }
-=======
-fn main() {
-    // DON'T EDIT THIS SOLUTION FILE!
-    // It will be automatically filled after you finish the exercise.
->>>>>>> master
 }

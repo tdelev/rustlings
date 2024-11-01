@@ -1,5 +1,4 @@
 fn main() {
-<<<<<<< HEAD
     // You can optionally experiment here.
 }
 
@@ -19,8 +18,4 @@ mod tests {
         z.push(13);
         assert_eq!(x, [42, 13]);
     }
-=======
-    // DON'T EDIT THIS SOLUTION FILE!
-    // It will be automatically filled after you finish the exercise.
->>>>>>> master
 }

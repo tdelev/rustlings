@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 fn is_even(num: i64) -> bool {
     num % 2 == 0
 }
@@ -15,9 +14,4 @@ fn sale_price(price: i64) -> i64 {
 fn main() {
     let original_price = 51;
     println!("Your sale price is {}", sale_price(original_price));
-=======
-fn main() {
-    // DON'T EDIT THIS SOLUTION FILE!
-    // It will be automatically filled after you finish the exercise.
->>>>>>> master
 }

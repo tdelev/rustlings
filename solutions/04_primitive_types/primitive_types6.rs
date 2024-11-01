@@ -1,5 +1,4 @@
 fn main() {
-<<<<<<< HEAD
     // You can optionally experiment here.
 }
 
@@ -14,8 +13,4 @@ mod tests {
 
         assert_eq!(second, 2, "This is not the 2nd number in the tuple!");
     }
-=======
-    // DON'T EDIT THIS SOLUTION FILE!
-    // It will be automatically filled after you finish the exercise.
->>>>>>> master
 }

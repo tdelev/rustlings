@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-fn main() {
-    // DON'T EDIT THIS SOLUTION FILE!
-    // It will be automatically filled after you finish the exercise.
-=======
 fn string_slice(arg: &str) {
     println!("{arg}");
 }
@@ -40,5 +35,4 @@ fn main() {
     string("Happy Monday!".replace("Mon", "Tues"));
 
     string("mY sHiFt KeY iS sTiCkY".to_lowercase());
->>>>>>> master
 }

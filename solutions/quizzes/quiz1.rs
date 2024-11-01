@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Mary is buying apples. The price of an apple is calculated as follows:
 // - An apple costs 2 rustbucks.
 // - However, if Mary buys more than 40 apples, the price of each apple in the
@@ -28,9 +27,4 @@ mod tests {
         assert_eq!(calculate_price_of_apples(41), 41);
         assert_eq!(calculate_price_of_apples(65), 65);
     }
-=======
-fn main() {
-    // DON'T EDIT THIS SOLUTION FILE!
-    // It will be automatically filled after you finish the exercise.
->>>>>>> master
 }

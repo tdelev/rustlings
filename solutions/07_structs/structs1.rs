@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-fn main() {
-    // DON'T EDIT THIS SOLUTION FILE!
-    // It will be automatically filled after you finish the exercise.
-=======
 struct ColorRegularStruct {
     red: u8,
     green: u8,
@@ -51,5 +46,4 @@ mod tests {
 
         assert_eq!(message, "UnitStructs are fun!");
     }
->>>>>>> master
 }

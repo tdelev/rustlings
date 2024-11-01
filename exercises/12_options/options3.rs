@@ -9,11 +9,7 @@ fn main() {
 
     // TODO: Fix the compiler error by adding something to this match statement.
     match optional_point {
-<<<<<<< HEAD
         Some(ref p) => println!("Co-ordinates are {},{}", p.x, p.y),
-=======
-        Some(p) => println!("Co-ordinates are {},{}", p.x, p.y),
->>>>>>> master
         _ => panic!("No match!"),
     }
 

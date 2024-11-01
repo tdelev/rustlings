@@ -5,11 +5,7 @@ mod sausage_factory {
         String::from("Ginger")
     }
 
-<<<<<<< HEAD
-    fn make_sausage() {
-=======
     pub fn make_sausage() {
->>>>>>> master
         get_secret_recipe();
         println!("sausage!");
     }

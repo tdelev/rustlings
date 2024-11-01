@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-fn main() {
-    // DON'T EDIT THIS SOLUTION FILE!
-    // It will be automatically filled after you finish the exercise.
-=======
 fn is_a_color_word(attempt: &str) -> bool {
     attempt == "green" || attempt == "blue" || attempt == "red"
 }
@@ -17,5 +12,4 @@ fn main() {
     } else {
         println!("That is not a color word I know.");
     }
->>>>>>> master
 }

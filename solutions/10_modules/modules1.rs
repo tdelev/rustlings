@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-fn main() {
-    // DON'T EDIT THIS SOLUTION FILE!
-    // It will be automatically filled after you finish the exercise.
-=======
 mod sausage_factory {
     fn get_secret_recipe() -> String {
         String::from("Ginger")
@@ -17,5 +12,4 @@ mod sausage_factory {
 
 fn main() {
     sausage_factory::make_sausage();
->>>>>>> master
 }

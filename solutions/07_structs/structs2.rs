@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-fn main() {
-    // DON'T EDIT THIS SOLUTION FILE!
-    // It will be automatically filled after you finish the exercise.
-=======
 #[derive(Debug)]
 struct Order {
     name: String,
@@ -53,5 +48,4 @@ mod tests {
         assert_eq!(your_order.item_number, order_template.item_number);
         assert_eq!(your_order.count, 1);
     }
->>>>>>> master
 }

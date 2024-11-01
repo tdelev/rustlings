@@ -14,11 +14,8 @@
 use std::error::Error;
 use std::fmt;
 
-<<<<<<< HEAD
 type MainReturn = Result<(), Box<dyn Error>>;
 
-=======
->>>>>>> master
 #[derive(PartialEq, Debug)]
 enum CreationError {
     Negative,
@@ -53,11 +50,7 @@ impl PositiveNonzeroInteger {
 
 // TODO: Add the correct return type `Result<(), Box<dyn ???>>`. What can we
 // use to describe both errors? Is there a trait which both errors implement?
-<<<<<<< HEAD
 fn main() -> MainReturn {
-=======
-fn main() {
->>>>>>> master
     let pretend_user_input = "42";
     let x: i64 = pretend_user_input.parse()?;
     println!("output={:?}", PositiveNonzeroInteger::new(x)?);

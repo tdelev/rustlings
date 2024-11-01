@@ -1,5 +1,4 @@
 fn main() {
-<<<<<<< HEAD
     let my_first_initial = 'C';
     if my_first_initial.is_alphabetic() {
         println!("Alphabetical!");
@@ -19,8 +18,4 @@ fn main() {
     } else {
         println!("Neither alphabetic nor numeric!");
     }
-=======
-    // DON'T EDIT THIS SOLUTION FILE!
-    // It will be automatically filled after you finish the exercise.
->>>>>>> master
 }
