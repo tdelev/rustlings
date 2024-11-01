@@ -3,17 +3,12 @@
 // someone eats it all, so no icecream is left (value 0). Return `None` if
 // `hour_of_day` is higher than 23.
 fn maybe_icecream(hour_of_day: u16) -> Option<u16> {
-<<<<<<< HEAD
     // TODO: Complete the function body.
-=======
-    if hour_of_day < 22 {
-        Some(5)
-    } else if hour_of_day <= 23 {
-        Some(0)
-    } else {
-        None
+    match hour_of_day {
+        x if x < 22 => Some(5),
+        x if x <= 23 => Some(0),
+        _ => None,
     }
->>>>>>> master
 }
 
 fn main() {
@@ -28,11 +23,7 @@ mod tests {
     fn raw_value() {
         // TODO: Fix this test. How do you get the value contained in the
         // Option?
-<<<<<<< HEAD
-        let icecreams = maybe_icecream(12);
-=======
         let icecreams = maybe_icecream(12).unwrap();
->>>>>>> master
 
         assert_eq!(icecreams, 5); // Don't change this line.
     }

@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-fn main() {
-    // DON'T EDIT THIS SOLUTION FILE!
-    // It will be automatically filled after you finish the exercise.
-=======
 // This function returns how much icecream there is left in the fridge.
 // If it's before 22:00 (24-hour system), then 5 scoops are left. At 22:00,
 // someone eats it all, so no icecream is left (value 0). Return `None` if
@@ -41,5 +36,4 @@ mod tests {
         assert_eq!(maybe_icecream(24), None);
         assert_eq!(maybe_icecream(25), None);
     }
->>>>>>> master
 }
