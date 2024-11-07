@@ -77,6 +77,9 @@ iterators2
 iterators3
 iterators4
 iterators5
+box1
+rc1
+arc1
 threads1
 threads2
 threads3
@@ -88,3 +91,5 @@ clippy1
 clippy2
 clippy3
 using_as
+from_into
+from_str

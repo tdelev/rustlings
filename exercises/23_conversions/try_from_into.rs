@@ -5,6 +5,7 @@
 // https://doc.rust-lang.org/std/convert/trait.TryFrom.html
 
 #![allow(clippy::useless_vec)]
+use core::panic;
 use std::convert::{TryFrom, TryInto};
 
 #[derive(Debug, PartialEq)]
@@ -23,19 +24,52 @@ enum IntoColorError {
     IntConversion,
 }
 
+fn in_range(c: i16) -> bool {
+    c >= 0 && c <= 255
+}
 // TODO: Tuple implementation.
 // Correct RGB color values must be integers in the 0..=255 range.
 impl TryFrom<(i16, i16, i16)> for Color {
     type Error = IntoColorError;
 
-    fn try_from(tuple: (i16, i16, i16)) -> Result<Self, Self::Error> {}
+    fn try_from(tuple: (i16, i16, i16)) -> Result<Self, Self::Error> {
+        let (Ok(red), Ok(green), Ok(blue)) = (
+            u8::try_from(tuple.0),
+            u8::try_from(tuple.1),
+            u8::try_from(tuple.2),
+        ) else {
+            return Err(IntoColorError::IntConversion);
+        };
+        Ok(Color { red, green, blue })
+        //let (red, green, blue) = tuple;
+        //if in_range(red) && in_range(green) && in_range(blue) {
+        //    Ok(Color {
+        //        red: red.try_into().unwrap(),
+        //        green: green.try_into().unwrap(),
+        //        blue: blue.try_into().unwrap(),
+        //    })
+        //} else {
+        //    Err(IntoColorError::IntConversion)
+        //}
+    }
 }
 
 // TODO: Array implementation.
 impl TryFrom<[i16; 3]> for Color {
     type Error = IntoColorError;
 
-    fn try_from(arr: [i16; 3]) -> Result<Self, Self::Error> {}
+    fn try_from(arr: [i16; 3]) -> Result<Self, Self::Error> {
+        if arr.iter().any(|c| !in_range(*c)) {
+            Err(IntoColorError::IntConversion)
+        } else {
+            let [red, green, blue] = arr;
+            Ok(Color {
+                red: red.try_into().unwrap(),
+                green: green.try_into().unwrap(),
+                blue: blue.try_into().unwrap(),
+            })
+        }
+    }
 }
 
 // TODO: Slice implementation.
@@ -43,7 +77,24 @@ impl TryFrom<[i16; 3]> for Color {
 impl TryFrom<&[i16]> for Color {
     type Error = IntoColorError;
 
-    fn try_from(slice: &[i16]) -> Result<Self, Self::Error> {}
+    fn try_from(slice: &[i16]) -> Result<Self, Self::Error> {
+        if slice.len() == 3 {
+            if slice.iter().any(|c| !in_range(*c)) {
+                Err(IntoColorError::IntConversion)
+            } else {
+                let [red, green, blue] = slice else {
+                    panic!("Can not happen")
+                };
+                Ok(Color {
+                    red: (*red).try_into().unwrap(),
+                    green: (*green).try_into().unwrap(),
+                    blue: (*blue).try_into().unwrap(),
+                })
+            }
+        } else {
+            Err(IntoColorError::BadLen)
+        }
+    }
 }
 
 fn main() {
